@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+header{
+   background:  #3E5C9A;
+   height: 82px;
+   border-bottom: 1px solid #133783;
+}
+.header-block {
+    width: 992px;
+    margin: 0px;
+    padding-top: 20px auto;
+}
+.logo{
+    width: 50%;
+    float: left;
+}
+.login{
+    width: 470px;
+    float: left;
+}
+img{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 150px;
+}
+.header-block label{
+    color: white;
+}
+.email{
+    float: left;
+}
+.email label{
+    padding-bottom: 30px;
+}
+.email input[type="text"] {
+    height: 20px;
+    width: 150px;
+    border: 1px solid #1d2a5b;
+}
+.password{
+    float: left;
+    padding-left: 15px;
+}
+.password label{
+    padding-bottom: 30px;
+}
+.password input[type="password"]{
+    height:20px;
+    width: 150px;
+    border: 1px solid #1d2a5b;
+}
+.password a{
+    color: #8fb1d8; 
+    text-decoration: none;    
+}
+.login-button{
+    float: left;
+    margin-top: 18px;
+    margin-left: 18px;
+    font-family: inherit;   
+}
+.login-button:hover{
+    background-color: #365899;
+    color:#EDF0F5;
+    cursor: pointer;
+}
+.login-button input[type="submit"]{
+    background: #4267b2;
+    border: 1px solid #29487d;
+    border-radius: 2px;
+    color: #fff;
+    box-shadow:  0 6px 6px -6px #365899;
+    height: 20px;
+    width: 40px;  
+}
+.clearfix{
+    clear: both;
+}
+.content-block{
+    width: 1280px;
+    margin: 0px auto;
+    background: #edf0f5; 
+    padding: 62px 0px 24px 143px;
+    font-size: 20px;
+    line-height: 36px;
+    font-family:'Freight Sans Bold', Helvetica, Arial, sans-serif; 
+    font-weight: bold !important;
+    letter-spacing: normal;
+    text-rendering: optimizeLegibility; 
+}
+.image img{
+    vertical-align: left;
+}
+.seephoto{
+    font-family: inherit;
+    margin-left: 2px;
+    font-weight: normal;
+    color: #333;
+    font-size: 17px;
+    line-height: 22px;
+    margin-top: 20px;
+}
+.feed{
+    color: #6666;
+    font-size: 15px;
+    line-height: 20px;
+}
+image .share{
+    font-family: inherit;
+    margin-left: 2px;
+    font-weight: normal;
+    color: #333;
+    font-size: 17px;
+    line-height: 22px;
+    margin-top: 20px;
+}
+.timeline{
+    color: #6666;
+    font-size: 15px;
+    line-height: 20px;
+}
+ .find{
+    font-family: inherit;
+    margin-left: 2px;
+    font-weight: normal;
+    color: #333;
+    font-size: 17px;
+    line-height: 22px;
+    margin-top: 20px;
+}
+.search{
+    color: #6666;
+    font-size: 15px;
+    line-height: 20px;
+}
+.create-account{
+    float: right;
+    width: 50%;
+    font-size: 26px;
+}
+h2{
+    padding-bottom: 5px;
+}
+.content{
+    background: linear-gradient(#fff, #d9ddab);
+    overflow: hidden;
+}
